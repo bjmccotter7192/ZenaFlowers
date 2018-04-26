@@ -1,0 +1,91 @@
+//*****************************************************
+// This is used for the slide show on main page *******
+//*****************************************************
+
+@import "assets/sass/bootstrap/variables";
+@import "assets/sass/bootstrap/mixins";
+@import "assets/sass/bootstrap/carousel";
+
+// @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Marcellus+SC|Great+Vibes|Roboto');
+
+// @import "../node_modules/bulma/bulma.sass";
+// @import "../node_modules/bulma-carousel/dist/bulma-carousel.sass";
+
+//*****************************************************
+
+@media screen and (min-width:1px) and (max-width:1365px) {
+	html{
+		zoom: 73%;
+		background-color: #766d71 !important;
+	}
+}
+@media screen and (min-width: 1401px){
+	html{
+		zoom: 100%;
+		background-color: #766d71 !important;
+	}
+}
+
+// html {
+// 	height: 100%;
+// 	background-color: #766d71;
+// 	overflow-y: scroll;
+// }
+
+html::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: snow;
+}
+
+html::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: lightpink;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	background-color: pink;
+}
+
+.add-margin-top{
+    margin-top: 1em;
+}
+
+.box{
+	background-color: whitesmoke;
+}
+
+.home-button-padding{
+    padding-top: 1.2em;
+}
+
+.home-span{
+    color: white;
+}
+
+.remove-side-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.title-text{
+	color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+}
+
+.home-button{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+	font-family: 'Great Vibes', cursive;
+	max-width: 3em;
+	border-radius: 50%;
+	
+	:hover{
+		color: lightpink;
+	}
+}

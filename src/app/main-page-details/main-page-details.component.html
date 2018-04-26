@@ -1,0 +1,34 @@
+<div class="columns" [@mainState]="state">
+    <div class="column"></div>
+    <div class="column is-two-thirds remove-side-padding">
+        <div class="columns">
+            <div class="column">
+                <main-slide-show></main-slide-show>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <div class="main-page-opening">
+                    <span class="main-page-opening-text">
+                        Welcome to Zena Flowers!
+                        <br> 
+                        Customize your own flower arrangements today or choose from a variety of ready arrangements.
+                        Flowers arrangements can also be made with live flowers for that special occasion.
+                        Weddings, anniversaries, or just for decoration,
+                        <br>
+                         Zena flowers can do it all!
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-multiline">
+            <div class="column is-one-third" *ngFor="let flower of flowers">
+                <div class="has-text-centered box">
+                    <app-shop-item [flower]="flower"></app-shop-item>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column"></div>
+</div>

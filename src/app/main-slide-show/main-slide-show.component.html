@@ -1,0 +1,26 @@
+<div class="round-corners">
+  <!-- <carousel>
+    <slide *ngFor="let flowerUrl of flowerUrls">
+      <div class="resizePhotos fullhd" [ngStyle]="{'background-image': flowerUrl}">
+        <div class="carousel-caption">
+          <div class="home-caption" *ngIf="!hovered">
+            <span class="home-caption-text">Welcome to Zena Flowers</span>
+          </div>
+        </div>
+      </div>
+    </slide>
+  </carousel> -->
+
+  <div class="columns">
+    <div class="column"></div>
+    <div class="column is-three-fifths">
+      <carousel>
+        <slide *ngFor="let flowerUrl of flowerUrls">
+          <img class="resizePhotos fullhd" src="{{flowerUrl}}">
+        </slide>
+      </carousel>
+    </div>
+    <div class="column"></div>
+  </div>  
+</div>
+

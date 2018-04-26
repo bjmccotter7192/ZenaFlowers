@@ -1,0 +1,37 @@
+<div class="columns" [@shopState]="state">
+    <div class="column is-hidden-mobile"></div>
+    <div class="column is-two-thirds add-margin-top">
+      <div class="columns">
+        <div class="column">
+          <div class="has-text-centered shop-page-message">
+              All flower arrangements are available as is below (unless otherwise stated). 
+              Customized flower arrangements can be requested. Prices vary depending on the
+              quality of flowers used, vases/containers that the flower arrangements are in, 
+              and the duration of creation.  Live flowers can be used. 
+              If you are interested in buying one of the flowers below or want to customize something special
+              and unique to you, contact Zena buy filling out this 
+              
+              <a class="form-contact-link" routerLink="/contact" routerLinkActive="active">
+                <span>form</span>
+              </a>
+              <br><br>
+              You can also give Zena a call at 573-555-555
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-multiline">
+        <div class="column is-one-third" *ngFor="let flower of flowers">
+          <div class="has-text-centered box">
+            <app-shop-item [flower]="flower"></app-shop-item>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column spacer">
+          
+        </div>
+      </div>
+    </div>      
+    <div class="column is-hidden-mobile"></div>
+</div>

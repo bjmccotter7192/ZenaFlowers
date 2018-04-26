@@ -1,0 +1,76 @@
+<div class="columns"  [@contactState]="state">
+  <div class="column is-hidden-mobile"></div>
+  <div class="column is-two-thirds">
+    <div class="columns">
+      <div class="column">
+          <div class="has-text-centered contact-message">
+            <div class="has-text-centered">
+                <span class="contact-title-text">Contact Zena Flowers</span>
+                <br><br>
+            </div>            
+            <div class="has-text-left">
+              If you are interested in buying one of the available flower arrangements in shop,
+              send your name, email, number to reach you at and best time to reach you, and the
+              ID of the flower you are interested in purchasing (ID located at the top of the photos). 
+              If you would like to customize your own unique flower arrangements you can leave
+              a brief description in the message box below.
+              <br><br>
+              You can also give Zena a call at 573-555-555
+            </div>
+          </div>
+      </div>
+      <div class="column" *ngIf="!sent">
+        <div class="contact-form">
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Name input" [(ngModel)]="contactInfo.name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="email" placeholder="Email input" [(ngModel)]="contactInfo.email">
+              <span class="icon is-small is-left">
+                <i class="mdi mdi-email"></i>
+              </span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Subject</label>
+            <div class="control">
+              <div class="select">
+                <select name="Subject" [(ngModel)]="contactInfo.subject">
+                  <option [value]="null">Select A Subject</option>
+                  <option *ngFor="let subject of subjects" [ngValue]="subject">{{subject}}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Textarea" [(ngModel)]="contactInfo.message"></textarea>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link" [disabled]="!isValid()" (click)="sendContactInfo()">Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-text">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column email-message" *ngIf="sent">
+        <div class="columns">
+          <div class="column sent-message">
+            <div class="sent-message-text">Thank you for <br/> your email!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-hidden-mobile"></div>
+</div>
