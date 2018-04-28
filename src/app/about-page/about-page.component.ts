@@ -24,8 +24,7 @@ export class AboutPageComponent implements OnInit {
   ngOnInit() {
     this.state = 'active';
 
-    this.aboutText = "I would like to start off by saying thank you for everybody that helped form Zena Flowers."
-    + "My name is Zena Ledoux and I first started making floral arrangements about 25 years ago in my home country of Guyana."
+    this.aboutText = "My name is Zena Ledoux and I first started making floral arrangements for my family and friends back home in Guyana, South America."
     + "Starting with real flowers and eventually gravitating to silk arrangements, I have formed my craft to meet all needs."
     + "If you have any questions about any of my products or if you would like to request a unique arrange please see my contact page"
     + "Thank you everybody and enjoy Zena Flowers!";
