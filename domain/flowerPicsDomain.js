@@ -154,14 +154,14 @@ exports.getFlowerPics = () => {
     flower22.Description = "Varies on Request";
     flower22.Dimensions = "Upon Request";
     flower22.Url = "../../assets/images/actualFlowers/zenaFlower24.jpg";
-    flower22.Price = 0.00;
+    flower22.Price = 125.00;
 
     let flower23 = new flowerPic;
     flower23.Id = "Z23";
     flower23.Description = "Varies on Request";
     flower23.Dimensions = "Upon Request";
     flower23.Url = "../../assets/images/actualFlowers/zenaFlower25.jpg";
-    flower23.Price = 0.00;
+    flower23.Price = 49.99;
 
     let flower24 = new flowerPic;
     flower24.Id = "Z24";
@@ -207,17 +207,17 @@ exports.getFlowerPics = () => {
 
     let flower30 = new flowerPic;
     flower30.Id = "Z30";
-    flower30.Description = "Varies on Request";
+    flower30.Description = "Wedding Center Piece";
     flower30.Dimensions = "Upon Request";
     flower30.Url = "../../assets/images/actualFlowers/zenaFlower32.jpg";
-    flower30.Price = 0.00;
+    flower30.Price = 90.00;
 
     let flower31 = new flowerPic;
     flower31.Id = "Z31";
     flower31.Description = "Varies on Request";
     flower31.Dimensions = "Upon Request";
     flower31.Url = "../../assets/images/actualFlowers/zenaFlower33.jpg";
-    flower31.Price = 39.50;
+    flower31.Price = 40;
 
     let flower32 = new flowerPic;
     flower32.Id = "Z32";
@@ -225,6 +225,48 @@ exports.getFlowerPics = () => {
     flower32.Dimensions = "Upon Request";
     flower32.Url = "../../assets/images/actualFlowers/zenaFlower34.jpg";
     flower32.Price = 0.00;
+
+    let flower33 = new flowerPic;
+    flower33.Id = "Z33";
+    flower33.Description = "Crystal Vase";
+    flower33.Dimensions = "Upon Request";
+    flower33.Url = "../../assets/images/actualFlowers/zenaFlower35.jpg";
+    flower33.Price = 245.00;
+
+    let flower32 = new flowerPic;
+    flower34.Id = "Z34";
+    flower34.Description = "Varies on Request";
+    flower34.Dimensions = "Upon Request";
+    flower34.Url = "../../assets/images/actualFlowers/zenaFlower36.jpg";
+    flower34.Price = 45.00;
+
+    let flower32 = new flowerPic;
+    flower35.Id = "Z35";
+    flower35.Description = "Varies on Request";
+    flower35.Dimensions = "Upon Request";
+    flower35.Url = "../../assets/images/actualFlowers/zenaFlower37.jpg";
+    flower35.Price = 0.00;
+
+    let flower32 = new flowerPic;
+    flower36.Id = "Z36";
+    flower36.Description = "Varies on Request";
+    flower36.Dimensions = "Upon Request";
+    flower36.Url = "../../assets/images/actualFlowers/zenaFlower38.jpg";
+    flower36.Price = 0.00;
+
+    let flower32 = new flowerPic;
+    flower37.Id = "Z37";
+    flower37.Description = "Varies on Request";
+    flower37.Dimensions = "Upon Request";
+    flower37.Url = "../../assets/images/actualFlowers/zenaFlower39.jpg";
+    flower37.Price = 0.00;
+
+    let flower32 = new flowerPic;
+    flower38.Id = "Z38";
+    flower38.Description = "Varies on Request";
+    flower38.Dimensions = "Upon Request";
+    flower38.Url = "../../assets/images/actualFlowers/zenaFlower40.jpg";
+    flower38.Price = 185.00;
 
     return [ flower21, flower22, flower23, flower24, flower25,
             flower26, flower27, flower28, flower29, flower30,
