@@ -233,35 +233,35 @@ exports.getFlowerPics = () => {
     flower33.Url = "../../assets/images/actualFlowers/zenaFlower35.jpg";
     flower33.Price = 245.00;
 
-    let flower32 = new flowerPic;
+    let flower34 = new flowerPic;
     flower34.Id = "Z34";
     flower34.Description = "Varies on Request";
     flower34.Dimensions = "Upon Request";
     flower34.Url = "../../assets/images/actualFlowers/zenaFlower36.jpg";
     flower34.Price = 45.00;
 
-    let flower32 = new flowerPic;
+    let flower35 = new flowerPic;
     flower35.Id = "Z35";
     flower35.Description = "Varies on Request";
     flower35.Dimensions = "Upon Request";
     flower35.Url = "../../assets/images/actualFlowers/zenaFlower37.jpg";
     flower35.Price = 0.00;
 
-    let flower32 = new flowerPic;
+    let flower36 = new flowerPic;
     flower36.Id = "Z36";
     flower36.Description = "Varies on Request";
     flower36.Dimensions = "Upon Request";
     flower36.Url = "../../assets/images/actualFlowers/zenaFlower38.jpg";
     flower36.Price = 0.00;
 
-    let flower32 = new flowerPic;
+    let flower37 = new flowerPic;
     flower37.Id = "Z37";
     flower37.Description = "Varies on Request";
     flower37.Dimensions = "Upon Request";
     flower37.Url = "../../assets/images/actualFlowers/zenaFlower39.jpg";
     flower37.Price = 0.00;
 
-    let flower32 = new flowerPic;
+    let flower38 = new flowerPic;
     flower38.Id = "Z38";
     flower38.Description = "Varies on Request";
     flower38.Dimensions = "Upon Request";
@@ -270,7 +270,8 @@ exports.getFlowerPics = () => {
 
     return [ flower21, flower22, flower23, flower24, flower25,
             flower26, flower27, flower28, flower29, flower30,
-            flower31, flower32,
+            flower31, flower32, flower33, flower34, flower35,
+            flower36, flower37, flower38,
             flower1, flower2, flower3, flower4, flower5, 
             flower6, flower7, flower8, flower9, flower10,
             flower11, flower12, flower13, flower14, flower15, 
