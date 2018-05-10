@@ -15,36 +15,6 @@ import { ImageService } from '../services/image.service';
         animate(300)
       ])
     ])
-    // trigger('aboutButtonState', [
-    //   state('inactive', style({
-    //     transform: 'scale(1)'
-    //   })),
-    //   state('active',   style({
-    //     transform: 'scale(1.1)'
-    //   })),
-    //   transition('inactive => active', animate('100ms ease-in')),
-    //   transition('active => inactive', animate('100ms ease-out'))
-    // ]),
-    // trigger('shopButtonState', [
-    //   state('inactive', style({
-    //     transform: 'scale(1)'
-    //   })),
-    //   state('active',   style({
-    //     transform: 'scale(1.1)'
-    //   })),
-    //   transition('inactive => active', animate('100ms ease-in')),
-    //   transition('active => inactive', animate('100ms ease-out'))
-    // ]),
-    // trigger('contactButtonState', [
-    //   state('inactive', style({
-    //     transform: 'scale(1)'
-    //   })),
-    //   state('active',   style({
-    //     transform: 'scale(1.1)'
-    //   })),
-    //   transition('inactive => active', animate('100ms ease-in')),
-    //   transition('active => inactive', animate('100ms ease-out'))
-    // ])
   ],
   encapsulation: ViewEncapsulation.None
 })
