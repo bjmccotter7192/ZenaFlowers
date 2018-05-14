@@ -268,10 +268,17 @@ exports.getFlowerPics = () => {
     flower38.Url = "../../assets/images/actualFlowers/zenaFlower40.jpg";
     flower38.Price = 185.00;
 
+    let flower39 = new flowerPic;
+    flower39.Id = "Z39";
+    flower39.Description = "Varies on Request";
+    flower39.Dimensions = "Upon Request";
+    flower39.Url = "../../assets/images/actualFlowers/zenaFlower41.jpg";
+    flower39.Price = 0.00;
+
     return [ flower21, flower22, flower23, flower24, flower25,
             flower26, flower27, flower28, flower29, flower30,
             flower31, flower32, flower33, flower34, flower35,
-            flower36, flower37, flower38,
+            flower36, flower37, flower38, flower39,
             flower1, flower2, flower3, flower4, flower5, 
             flower6, flower7, flower8, flower9, flower10,
             flower11, flower12, flower13, flower14, flower15, 

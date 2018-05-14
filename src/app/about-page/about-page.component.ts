@@ -25,7 +25,7 @@ export class AboutPageComponent implements OnInit {
     this.state = 'active';
 
     this.aboutText = "My name is Zena Ledoux and I first started making floral arrangements for my family and friends back home in Guyana, South America."
-    + "Starting with real flowers and eventually gravitating to silk arrangements, I have formed my craft to meet all needs."
+    + " I have formed my craft to meet all needs, and am excited to spread the joy here in Columbia, Missouri."
     + "If you have any questions about any of my products or if you would like to request a unique arrange please see my contact page"
     + "Thank you everybody and enjoy Zena Flowers!";
   }

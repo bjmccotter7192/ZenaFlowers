@@ -2,6 +2,14 @@
     min-height: 10em;
 }
 
+a{
+    color: white;
+
+    :hover{
+        color: pink;
+    }
+}
+
 .contact-message{
     font-size: 1.6em;
     padding: .5em;
