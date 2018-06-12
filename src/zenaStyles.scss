@@ -17,21 +17,15 @@
 @media screen and (min-width:1px) and (max-width:1365px) {
 	html{
 		zoom: 73%;
-		background-color: #766d71 !important;
+		background-color: #4C1030 !important;
 	}
 }
 @media screen and (min-width: 1401px){
 	html{
 		zoom: 100%;
-		background-color: #766d71 !important;
+		background-color: #4C1030 !important;
 	}
 }
-
-// html {
-// 	height: 100%;
-// 	background-color: #766d71;
-// 	overflow-y: scroll;
-// }
 
 html::-webkit-scrollbar-track
 {
@@ -47,7 +41,7 @@ html::-webkit-scrollbar
 
 html::-webkit-scrollbar-thumb
 {
-	background-color: pink;
+	background-color: #4C1030;
 }
 
 .add-margin-top{

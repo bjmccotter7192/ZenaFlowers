@@ -18,21 +18,12 @@ export class MainSlideShowComponent implements OnInit {
     constructor(private imageService: ImageService){}
 
     ngOnInit() {
-      // this.imageService.getData().subscribe(res => {
-      //   this.flowers = res;
-      //   this.flowerUrls = this.getFlowerUrls();
-      // });
-
       this.flowerUrls = [
-        "../../assets/images/homepic1.png",
-        "../../assets/images/homepic2.png",
-        "../../assets/images/homepic3.png"
+        "../../assets/images/ZFH1.png",
+        "../../assets/images/ZFH2.png",
+        "../../assets/images/ZFH3.png"
       ];
     }
-
-    // toggle(){
-    //   this.hovered = !this.hovered;
-    // }
 
     getFlowerUrls(): string[]{
       let flowerUrls: string[] = [];

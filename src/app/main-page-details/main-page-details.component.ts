@@ -32,7 +32,7 @@ export class MainPageDetailsComponent implements OnInit {
 
     this.imageService.getData().subscribe(res => {
       this.flowers = res;
-      this.flowers = this.flowers.filter(x => x.Id == "Z6" || x.Id == "Z11" || x.Id == "Z20");
+      this.flowers = this.flowers.filter(x => x.Id == "Z21" || x.Id == "Z10" || x.Id == "Z20");
     });
   }
 

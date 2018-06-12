@@ -69,7 +69,7 @@ exports.getFlowerPics = () => {
     flower10.Id = "Z10";
     flower10.Description = "Varies on Request";
     flower10.Dimensions = "Upon Request";
-    flower10.Url = "../../assets/images/actualFlowers/zenaFlower11(2).jpg";
+    flower10.Url = "../../assets/images/actualFlowers/ZF02.jpg";
     flower10.Price = 225.00;
 
     let flower11 = new flowerPic;
@@ -139,14 +139,14 @@ exports.getFlowerPics = () => {
     flower20.Id = "Z20";
     flower20.Description = "Orchids and Lilies";
     flower20.Dimensions = "24 x 21";
-    flower20.Url = "../../assets/images/actualFlowers/zenaFlower22.jpg";
+    flower20.Url = "../../assets/images/actualFlowers/ZF01.jpg";
     flower20.Price = 95.00;
 
     let flower21 = new flowerPic;
     flower21.Id = "Z21";
     flower21.Description = "Varies on Request";
     flower21.Dimensions = "Upon Request";
-    flower21.Url = "../../assets/images/actualFlowers/zenaFlower23.jpg";
+    flower21.Url = "../../assets/images/actualFlowers/ZF03.jpg";
     flower21.Price = 0.00;
 
     let flower22 = new flowerPic;
