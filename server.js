@@ -19,8 +19,13 @@ app.use(function(err, req, res, next) {
 let staticPath = path.join(__dirname, '/dist');
 app.use(express.static(staticPath));
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'dist/index.html'));
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'dist/index.html'));
+// });
+
+app.get('*', function (req, res) {
+    const index = path.join(__dirname, 'build', 'index.html');
+    res.sendFile(index);
 });
 
 let port = 3001;
